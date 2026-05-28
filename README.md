@@ -374,3 +374,12 @@ This approach strengthens feature representation while preserving computational 
 | **CFGPNet-e** | 180.9 | 560.7 | 136.9 | 349.6 | 1806 |
 
 > **Notes:** #Param. and GFLOPs are reported for a single forward pass at `1×6×640×640`. FPS is measured by timing the forward pass only, excluding data loading and preprocessing.
+
+## 🛠 Requirements
+
+- **Python**: 3.10  
+- **PyTorch**: 1.12
+- **CUDA**: 11.8
+
+- Other requirements can be seen in requirement.txt
+
