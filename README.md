@@ -329,6 +329,38 @@ This approach strengthens feature representation while preserving computational 
   </a>
 </p>
 
+### Quantitative comparison on the **MFAD** dataset
+
+| **Modality** | **Model** | **mAP50** | **mAP50:95** | **Weights (M)** |
+|:--:|:--:|:--:|:--:|:--:|
+| **T** | [YOLOv5-l (2022)](https://zenodo.org/records/7347926) | 70.0 | 42.8 | -- |
+| **T** | [YOLOv7-x (2022)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_for_Real-Time_Object_Detectors_CVPR_2023_paper.html) | 66.5 | 40.6 | -- |
+| **T** | [YOLOv10-l (2024)](https://papers.neurips.cc/paper_files/paper/2024/hash/c34ddd05eb089991f06f3c5dc36836e0-Abstract-Conference.html) | 65.7 | 41.8 | -- |
+| **T** | [YOLOX-l (2024)](https://arxiv.org/abs/2107.08430) | 63.2 | 39.2 | -- |
+| **RGB** | [YOLOv5-l (2022)](https://zenodo.org/records/7347926) | 74.9 | 49.1 | -- |
+| **RGB** | [YOLOv7-x (2022)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_for_Real-Time_Object_Detectors_CVPR_2023_paper.html) | 72.9 | 48.8 | -- |
+| **RGB** | [YOLOv10-l (2024)](https://papers.neurips.cc/paper_files/paper/2024/hash/c34ddd05eb089991f06f3c5dc36836e0-Abstract-Conference.html) | 71.1 | 48.9 | -- |
+| **RGB** | [YOLOX-l (2024)](https://arxiv.org/abs/2107.08430) | 68.6 | 46.8 | -- |
+| **RGB-T** | [CFT (2021)](https://arxiv.org/abs/2111.00273) | 77.8 | 52.5 | 196.9 |
+| **RGB-T** | [TINet (2023)](https://doi.org/10.1109/TIM.2023.3251414) | 69.1 | 43.6 | -- |
+| **RGB-T** | [TarDAL (2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Target-Aware_Dual_Adversarial_Learning_and_a_Multi-Scenario_Multi-Modality_Benchmark_To_CVPR_2022_paper.html) | 69.8 | 43.9 | -- |
+| **RGB-T** | [MMI-Det (2024)](https://doi.org/10.1109/TCSVT.2024.3418965) | 76.9 | 51.4 | 207.6 |
+| **RGB-T** | [ICAFusion (2024)](https://www.sciencedirect.com/science/article/pii/S0031320323006118) | 77.6 | 52.7 | 120.2 |
+| **RGB-T** | [EI<sup>2</sup>Det (2025)](https://doi.org/10.1109/TCSVT.2025.3539625) | 79.0 | 53.3 | 127.7 |
+| **RGB-T** | [LCAFNet (2026)](https://www.sciencedirect.com/science/article/pii/S0031320326003158) | <ins>79.8</ins> | 53.3 | 15.4 |
+| **RGB-T** | [RSC-MD (2025)](https://arxiv.org/abs/2511.15433) | 79.4 | <ins>57.0</ins> | -- |
+| **RGB-T** | CFGPNet-m | 79.6 | 56.7 | 21.0 |
+| **RGB-T** | CFGPNet-c | <ins>82.0</ins> | <ins>59.9</ins> | 71.7 |
+| **RGB-T** | CFGPNet-e | <ins>83.4</ins> | <ins>61.8</ins> | 180.9 |
+
+> **Notes:** The three best results are underlined.
+
+<p align="center">
+  <a href="docs/MFAD_map_param_diagram.png">
+    <img src="docs/MFAD_map_param_diagram.png" alt="MFAD performance" width="60%">
+  </a>
+</p>
+
 ## Framework specifications
 
 ### CFGPNet model scales
