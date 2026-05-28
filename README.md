@@ -536,7 +536,7 @@ python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.p
     <img src="docs/infrared_02059_vis.png" alt="infrared inference sample" width="45%">
   </a>
   <a href="docs/visible_02059_vis.png">
-    <img src="visible_02059_vis.png" alt="rgb inference sample" width="45%">
+    <img src="docs/visible_02059_vis.png" alt="rgb inference sample" width="45%">
   </a>
 </p> 
 
