@@ -381,5 +381,5 @@ This approach strengthens feature representation while preserving computational 
 - **PyTorch**: 1.12
 - **CUDA**: 11.8
 
-- Other requirements can be seen in requirement.txt
+- Other requirements can be seen in requirements.txt
 
