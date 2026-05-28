@@ -361,6 +361,8 @@ This approach strengthens feature representation while preserving computational 
   </a>
 </p>
 
+---
+
 ## Framework specifications
 
 ### CFGPNet model scales
@@ -375,6 +377,8 @@ This approach strengthens feature representation while preserving computational 
 
 > **Notes:** #Param. and GFLOPs are reported for a single forward pass at `1×6×640×640`. FPS is measured by timing the forward pass only, excluding data loading and preprocessing.
 
+---
+
 ## 🛠 Requirements
 
 - **Python**: 3.10  
@@ -382,6 +386,8 @@ This approach strengthens feature representation while preserving computational 
 - **CUDA**: 11.8
 
 - Other requirements can be seen in requirements.txt
+
+---
 
 ## 📊 Datasets
 
@@ -529,6 +535,8 @@ Multiple GPU training
 python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.py --workers 8 --device 0,1 --sync-bn --batch 10 --epochs 600 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-c.yaml --name exp12 --cache ram --exist-ok --patience 0
 ```
 
+---
+
 ## 🧪 Validation & Inference 
 
 <p align="center">
@@ -617,6 +625,8 @@ Use the following NMS IoU thresholds when validating CFGPNet models on each data
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | **NMS IoU threshold** | 0.6 | 0.5 | 0.65 | 0.45 | 0.55 |
 
+---
+
 ## Acknowledgements
 
 <details><summary> <b>Expand</b> </summary>
@@ -639,3 +649,9 @@ If you find this repository useful, please cite our paper:
 ```bibtex
 
 ```
+
+--- 
+
+## Visualization 
+
+To better realize the work, take a look at [](), [](), [](), [](), and [](), which show the performance comparison between the CFGPNet and other state-of-the-art models through inference samples across different datasets. 
