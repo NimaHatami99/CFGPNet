@@ -254,9 +254,9 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [IVD-NET (2026)](https://doi.org/10.1109/JSTARS.2026.3669585) | 96.7 | 61.9 | 27.9 |
 | **RGB-T** | [LCAFNet (2026)](https://www.sciencedirect.com/science/article/pii/S0031320326003158) | <ins>97.7</ins> | 65.0 | 15.4 |
 | **RGB-T** | [PMDet (2026)](https://www.mdpi.com/2072-4292/18/7/1068) | <ins>97.7</ins> | 66.6 | 277.1 |
-| **RGB-T** | [MDSF-Det (2026)](https://doi.org/10.1109/ICASSP.2026.00000) | 94.9 | 62.9 | 151.6 |
+| **RGB-T** | [MDSF-Det (2026)](https://ieeexplore.ieee.org/abstract/document/11462879) | 94.9 | 62.9 | 151.6 |
 | **RGB-T** | [OARE (2026)](https://doi.org/10.1109/TMM.2026.3678036) | 95.9 | -- | -- |
-| **RGB-T** | [YOLO-MSFF (2026)](https://doi.org/10.1109/GAIIS.2026.00000) | 97.2 | 67.1 | 59.8 |
+| **RGB-T** | [YOLO-MSFF (2026)](https://ieeexplore.ieee.org/abstract/document/11519149) | 97.2 | 67.1 | 59.8 |
 | **RGB-T** | CFGPNet-m | <ins>97.8</ins> | 67.1 | 21.0 |
 | **RGB-T** | CFGPNet-c | <ins>97.7</ins> | <ins>68.8</ins> | 71.7 |
 | **RGB-T** | CFGPNet-e | 97.5 | <ins>68.9</ins> | 180.9 |
