@@ -540,3 +540,80 @@ python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.p
   </a>
 </p> 
 
+---
+
+### 📦 Trained Weights
+
+The trained weights of **CFGPNet-m**, **CFGPNet-c**, and **CFGPNet-e** for five datasets: **FLIR**, **M3FD**, **LLVIP**, **VEDAI_1**, and **MFAD** are provided.
+
+| **Dataset** | **CFGPNet-m** | **CFGPNet-c** | **CFGPNet-e** |
+|:--:|:--:|:--:|:--:|
+| **FLIR** | [Google Drive](https://drive.google.com/drive/folders/1FMTGgb-_xi9qW107q-mwX9t8udTSur69?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1TrCpz4MHomOkBfBj-i815ZsDxK6y-4Q1?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1uDZC4I9LWFp_K46d6VH5rvjm8BiQcKnZ?usp=sharing) |
+| **M3FD** | [Google Drive](https://drive.google.com/drive/folders/1rA1eisUG-AqWT8vnKbHe0iFuwmyDCXyT?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1Shg8dxkNS6hcBq0SnDcJMk1ABWG8kRxQ?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1V2UV4IQiLTY63SqdooAg4UN8Diw8vrxJ?usp=sharing) |
+| **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/1m1rooooz4rMQaqwS0cDDGwc-1uOm0G4a?usp=sharing) | [Google Drive]([YOUR_LLVIP_CFGPNET_C_WEIGHTS_LINK](https://drive.google.com/drive/folders/17P5-hLpvJmy7AujTXNlHcdjp63jdbuaW?usp=sharing)) | [Google Drive](https://drive.google.com/drive/folders/1FvtoHW9x-RRDJxjlpZDTX4SYQVL8LmRv?usp=sharing) |
+| **VEDAI_1** | [Google Drive](https://drive.google.com/drive/folders/1AY9JXRuOjEVTOWcts-KEdGjppoKCTbtw?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1w7pdW0uYm3rKn-tTYGNOixahZOUTDI4l?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1LGKyeAmDCP4qCmPLivFApM4soiLFk9Lr?usp=sharing) |
+| **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1fl1CKyJO4dLnD4_2dhZ6FHvBF9yv2gNh?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1nPm9hHtwty-BoXjkDT_f7WSvb5THe6xN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FU2LsksTc8jvgGV1MU2uRgH88KPe1MF-?usp=sharing) |
+
+After downloading the weights, place them in the `weights/` directory. For example:
+
+```code
+weights/
+├── FLIR/
+│   ├── CFGPNet-m.pt
+│   ├── CFGPNet-c.pt
+│   └── CFGPNet-e.pt
+├── M3FD/
+│   ├── CFGPNet-m.pt
+│   ├── CFGPNet-c.pt
+│   └── CFGPNet-e.pt
+├── LLVIP/
+│   ├── CFGPNet-m.pt
+│   ├── CFGPNet-c.pt
+│   └── CFGPNet-e.pt
+├── VEDAI_1/
+│   ├── CFGPNet-m.pt
+│   ├── CFGPNet-c.pt
+│   └── CFGPNet-e.pt
+└── MFAD/
+    ├── CFGPNet-m.pt
+    ├── CFGPNet-c.pt
+    └── CFGPNet-e.pt
+```
+
+---
+
+### 🚀 validation & Inference Command 
+
+To run validation, use the following command:
+
+```bash
+python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --data datasets/FLIR.yaml --weights weights/CFGPNet-e.pt --name exp12 --exist-ok
+```
+
+To run Inference, use the following command:
+
+```bash
+python detect.py --conf 0.1 --device 0 --weights weights/CFGPNet-e.pt --source data --name CFGPNet-e_detect1 --exist-ok
+```
+
+The file names for pair-images on which you are to perform inference must be like this: 
+
+```code
+data/
+├── infrared_000001.jpg
+├── visible_000001.jpg
+├── infrared_000002.jpg
+├── visible_000002.jpg
+└── ...
+```
+
+---
+
+### ⚙️ Suitable NMS IoU Thresholds
+
+Use the following NMS IoU thresholds when validating CFGPNet models on each dataset.
+
+| **Dataset** | **FLIR** | **M3FD** | **LLVIP** | **VEDAI** | **MFAD** |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| **NMS IoU threshold** | 0.6 | 0.5 | 0.65 | 0.45 | 0.55 |
+
