@@ -1,0 +1,6 @@
+train: /home/nima/paper_1/datasets/M3FD/train/img
+val: /home/nima/paper_1/datasets/M3FD/val/img
+test: /home/nima/paper_1/datasets/M3FD/test/img
+
+nc: 6
+names: ['People', 'Car', 'Bus', 'Motorcycle', 'Lamp', 'Truck']

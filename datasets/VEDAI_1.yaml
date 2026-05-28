@@ -1,0 +1,6 @@
+train: /home/nima/paper_1/datasets/VEDAI_1/train/img
+val: /home/nima/paper_1/datasets/VEDAI_1/val/img
+test: /home/nima/paper_1/datasets/VEDAI_1/test/img
+
+nc: 9
+names: ['car', 'truck', 'boat', 'tractor', 'camping car', 'pick-up', 'plane', 'other', 'van']

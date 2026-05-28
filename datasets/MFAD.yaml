@@ -1,0 +1,6 @@
+train: /home/nima/paper_1/datasets/MFAD/train/img
+val: /home/nima/paper_1/datasets/MFAD/val/img
+test: /home/nima/paper_1/datasets/MFAD/test/img
+
+nc: 6
+names: ['Car','Bus','Truck','Pedestrian','Ebikerider','Cyclist']

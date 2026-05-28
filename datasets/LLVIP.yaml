@@ -1,0 +1,6 @@
+train: /home/nima/paper_1/datasets/LLVIP/train/img
+val: /home/nima/paper_1/datasets/LLVIP/val/img
+test: /home/nima/paper_1/datasets/LLVIP/test/img
+
+nc: 1
+names: ['person']

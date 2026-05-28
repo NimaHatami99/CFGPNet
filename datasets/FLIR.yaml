@@ -1,0 +1,6 @@
+train: /home/nima/paper_1/datasets/FLIR/train/img
+val: /home/nima/paper_1/datasets/FLIR/val/img
+test: /home/nima/paper_1/datasets/FLIR/test/img
+
+nc: 3
+names: ['person', 'car', 'bicycle']
