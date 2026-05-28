@@ -109,6 +109,12 @@ This approach strengthens feature representation while preserving computational 
 
 > **Notes:** The three best results are underlined.
 
+<p align="center">
+  <a href="docs/FLIR_map_param_diagram.png">
+    <img src="docs/FLIR_map_param_diagram.png" alt="FLIR performance" width="90%">
+  </a>
+</p>
+
 ## Framework specifications
 
 ### CFGPNet model scales
