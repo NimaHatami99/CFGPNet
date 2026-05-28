@@ -529,3 +529,14 @@ Multiple GPU training
 python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.py --workers 8 --device 0,1 --sync-bn --batch 10 --epochs 600 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-c.yaml --name exp12 --cache ram --exist-ok --patience 0
 ```
 
+## 🧪 Validation & Inference 
+
+<p align="center">
+  <a href="docs/infrared_02059_vis.png">
+    <img src="docs/infrared_02059_vis.png" alt="infrared inference sample" width="45%">
+  </a>
+  <a href="docs/visible_02059_vis.png">
+    <img src="visible_02059_vis.png" alt="rgb inference sample" width="45%">
+  </a>
+</p> 
+
