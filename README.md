@@ -170,10 +170,10 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [CHEF-Det (2026)](https://www.sciencedirect.com/science/article/pii/S1051200426002137) | 82.4 | 54.8 | -- |
 | **RGB-T** | [IVFDNet (2026)](https://www.sciencedirect.com/science/article/pii/S0925231226010374) | <ins>88.9</ins> | -- | -- |
 | **RGB-T** | [ACSE-Net (2026)](https://link.springer.com/article/10.1007/s44443-026-00732-4) | 86.3 | 59.4 | 55.0 |
-| **RGB-T** | SFCNet (2026) | 80.4 | 53.5 | -- |
+| **RGB-T** | [SFCNet (2026)](https://www.researchgate.net/publication/404236009_Modality-Aware_Fusion_and_Selection_for_Robust_Multispectral_Pedestrian_Detection) | 80.4 | 53.5 | -- |
 | **RGB-T** | [MDAFN (2026)](https://doi.org/10.1109/TVT.2026.3678921) | 87.0 | 54.6 | -- |
 | **RGB-T** | [OARE (2026)](https://doi.org/10.1109/TMM.2026.3678036) | 88.4 | -- | -- |
-| **RGB-T** | DF-Net (2026) | 80.0 | 52.6 | -- |
+| **RGB-T** | [DF-Net (2026)](https://ieeexplore.ieee.org/document/11514987) | 80.0 | 52.6 | -- |
 | **RGB-T** | [WD-FQDet (2026)](https://arxiv.org/abs/2605.13621) | 73.7 | 46.4 | 60.7 |
 | **RGB-T** | CFGPNet-m | 87.8 | <ins>60.3</ins> | 21.0 |
 | **RGB-T** | CFGPNet-c | <ins>89.0</ins> | <ins>62.2</ins> | 71.7 |
