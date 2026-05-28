@@ -654,4 +654,12 @@ If you find this repository useful, please cite our paper:
 
 ## Visualization 
 
-To better realize the work, take a look at [FLIR](https://drive.google.com/file/d/1rIlNZx-612VkGdpcHPZ2X3IMk6j36CSB/view?usp=sharing), [M3FD](https://drive.google.com/file/d/1CdiGzazrU6HuMzYj27tqhvehj_xzccVN/view?usp=sharing), [LLVIP](https://drive.google.com/file/d/1JxjZmdj47dAQZWa6JSSbe8JE7IBmoP4g/view?usp=sharing), [VEDAI](https://drive.google.com/file/d/1FzIE4AJgRnAcF9vXNqVzpR1w4h8jkesN/view?usp=sharing), and [MFAD](https://drive.google.com/file/d/1zHKN1k5vMVfD-U1ptLw2pB4c8B2OiEag/view?usp=sharing), which show the performance comparison between the CFGPNet and other state-of-the-art models through inference samples across different datasets. 
+To better illustrate the qualitative performance of CFGPNet, visualization results are provided comparing CFGPNet with other state-of-the-art methods using inference examples from each dataset.
+
+| **Dataset** | **Visualization** |
+|:--:|:--:|
+| **FLIR** | [Google Drive](https://drive.google.com/file/d/1rIlNZx-612VkGdpcHPZ2X3IMk6j36CSB/view?usp=sharing) |
+| **M3FD** | [Google Drive](https://drive.google.com/file/d/1CdiGzazrU6HuMzYj27tqhvehj_xzccVN/view?usp=sharing) |
+| **LLVIP** | [Google Drive](https://drive.google.com/file/d/1JxjZmdj47dAQZWa6JSSbe8JE7IBmoP4g/view?usp=sharing) |
+| **VEDAI** | [Google Drive](https://drive.google.com/file/d/1FzIE4AJgRnAcF9vXNqVzpR1w4h8jkesN/view?usp=sharing) |
+| **MFAD** | [Google Drive](https://drive.google.com/file/d/1zHKN1k5vMVfD-U1ptLw2pB4c8B2OiEag/view?usp=sharing) |
