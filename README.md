@@ -654,4 +654,4 @@ If you find this repository useful, please cite our paper:
 
 ## Visualization 
 
-To better realize the work, take a look at [](), [](), [](), [](), and [](), which show the performance comparison between the CFGPNet and other state-of-the-art models through inference samples across different datasets. 
+To better realize the work, take a look at [FLIR](docs/FLIR.pdf), [](), [](), [](), and [](), which show the performance comparison between the CFGPNet and other state-of-the-art models through inference samples across different datasets. 
