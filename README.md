@@ -8,7 +8,7 @@ models:
 
 <p align="center">
   <a href="docs/dualyolo2-c.png">
-    <img src="docs/dualyolo2-c.png" alt="CFGPNet-c, -m" width="45%">
+    <img src="docs/dualyolo2-c.png" alt="CFGPNet-c, -m" width="90%">
   </a>
 </p>
 
