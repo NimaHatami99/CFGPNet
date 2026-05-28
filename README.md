@@ -111,7 +111,7 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/FLIR_map_param_diagram.png">
-    <img src="docs/FLIR_map_param_diagram.png" alt="FLIR performance" width="90%">
+    <img src="docs/FLIR_map_param_diagram.png" alt="FLIR performance" width="60%">
   </a>
 </p>
 
