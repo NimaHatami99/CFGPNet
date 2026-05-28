@@ -20,3 +20,11 @@ CFGPNet-e:
   </a>
 </p>
 
+RepViTCSPELAN4: 
+
+<p align="center">
+  <a href="docs/RepViTCSPELAN4.png">
+    <img src="docs/RepViTCSPELAN4.png" alt="RepViTCSPELAN4" width="45%">
+  </a>
+</p> 
+
