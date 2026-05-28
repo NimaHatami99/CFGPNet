@@ -67,7 +67,7 @@ This approach strengthens feature representation while preserving computational 
 **Input size:** 640×640
 
 | **Model** | **#Param. (M)** | **GFLOPs (G)** | **FPS** | **Model Size (MB)** | **#Layers** |
-|-:-|-:-|-:-|-:-|-:-|-:-|
+|:--|--:|--:|--:|--:|--:|
 | **CFGPNet-m** | 21.0 | 94.6 | 1463.4 | 41.6 | 1165 |
 | **CFGPNet-c** | 71.7 | 362.2 | 386.1 | 138.8 | 1165 |
 | **CFGPNet-e** | 180.9 | 560.7 | 136.9 | 349.6 | 1806 |
