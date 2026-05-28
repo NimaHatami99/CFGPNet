@@ -193,7 +193,7 @@ This approach strengthens feature representation while preserving computational 
 |:--:|:--:|:--:|:--:|:--:|
 | **T** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 95.4 | 61.5 | -- |
 | **T** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 90.7 | 53.8 | -- |
-| **T** | [RetinaNet (2017)](https://openaccess.thecvf.com/content_ICCV_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html) | 93.2 | 51.3 | -- |
+| **T** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 93.2 | 51.3 | -- |
 | **T** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 94.3 | 61.4 | -- |
 | **T** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 95.4 | 59.2 | -- |
 | **T** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 95.1 | 60.9 | -- |
@@ -205,7 +205,7 @@ This approach strengthens feature representation while preserving computational 
 | **T** | [LFTDet-B (2024)](https://doi.org/10.1109/JSEN.2024.3399193) | 96.2 | 63.8 | -- |
 | **RGB** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 90.1 | 52.2 | -- |
 | **RGB** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 84.9 | 45.9 | -- |
-| **RGB** | [RetinaNet (2017)](https://openaccess.thecvf.com/content_ICCV_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html) | 86.3 | 42.3 | -- |
+| **RGB** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 86.3 | 42.3 | -- |
 | **RGB** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 90.8 | 52.8 | -- |
 | **RGB** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 90.1 | 51.9 | -- |
 | **RGB** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 90.2 | 52.6 | -- |
