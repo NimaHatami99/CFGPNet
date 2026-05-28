@@ -40,7 +40,7 @@ CEA:
 
 <p align="center">
   <a href="docs/EEMA.png">
-    <img src="docs/EEMA.png" alt="CEA" width="90%">
+    <img src="docs/EEMA.png" alt="CEA" width="40%">
   </a>
 </p> 
 
@@ -48,7 +48,7 @@ ASAF:
 
 <p align="center">
   <a href="docs/FeatFuse.png">
-    <img src="docs/FeatFuse.png" alt="ASAF" width="40%">
+    <img src="docs/FeatFuse.png" alt="ASAF" width="90%">
   </a>
 </p> 
 
