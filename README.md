@@ -54,7 +54,7 @@ This approach strengthens feature representation while preserving computational 
 
 --- 
 
-## Performance 
+## 📈 Performance
 
 ### Quantitative comparison on the **FLIR** dataset
 
@@ -363,7 +363,7 @@ This approach strengthens feature representation while preserving computational 
 
 ---
 
-## Framework specifications
+## 📐 Framework Specifications
 
 ### CFGPNet model scales
 
@@ -627,7 +627,7 @@ Use the following NMS IoU thresholds when validating CFGPNet models on each data
 
 ---
 
-## Visualization 
+## 🖼️ Visualization
 
 To better illustrate the qualitative performance of CFGPNet, visualization results are provided comparing CFGPNet with other state-of-the-art methods using inference examples from each dataset.
 
@@ -641,7 +641,7 @@ To better illustrate the qualitative performance of CFGPNet, visualization resul
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 <details><summary> <b>Expand</b> </summary>
 
