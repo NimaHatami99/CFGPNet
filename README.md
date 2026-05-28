@@ -470,7 +470,7 @@ datasets/
 The following links contain the datasets in the required format.
 
 | **Dataset** | **Download Link** |
-|:--:|:--:|:--:|:--|
+|:--:|:--:|
 | **FLIR** | [Google Drive](https://drive.google.com/drive/folders/1Q9mC5LZuLypQq2v6SYJ_HIBvh2-d6PgA?usp=sharing) |
 | **M3FD** | [Google Drive](https://drive.google.com/drive/folders/1PJOvtImeOQMhOQHdGjBSjRbZrjskjHe7?usp=sharing) |
 | **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/1ahLgT-II9muQ3V91B70wVCkdmg7oEs27?usp=sharing) |
@@ -482,8 +482,8 @@ The following links contain the datasets in the required format.
 
 The **VEDAI** dataset has **10 possible train/validation splits**. All formatted splits are provided below.
 
-| **VEDAI Split** | **Download Link** | **Format** | **Notes** |
-|:--:|:--:|:--:|:--|
+| **VEDAI Split** | **Download Link** |
+|:--:|:--:|
 | **Split 1** | [Google Drive](https://drive.google.com/drive/folders/19L4RhRgKkAJSG8IZDwGy4XtFciLqiW-Z?usp=sharing) |
 | **Split 2** | [Google Drive](https://drive.google.com/drive/folders/1hlOAaXsG-TLpBrQwY436GrxkDSz4DkOd?usp=sharing) |
 | **Split 3** | [Google Drive](https://drive.google.com/drive/folders/14d19Ieqn6FKElySZj4G8kQnrf_lwNd_b?usp=sharing) |
@@ -501,8 +501,8 @@ The **VEDAI** dataset has **10 possible train/validation splits**. All formatted
 
 If you prefer to start from the original datasets, download them from the links below and use the preprocessing scripts in [`preprocess/`](preprocess/) to convert them into the required format.
 
-| **Dataset** | **Original Dataset Link** | **Preprocessing Folder** |
-|:--:|:--:|:--:|
+| **Dataset** | **Original Dataset Link** |
+|:--:|:--:|
 | **FLIR** | [Original FLIR Dataset](https://drive.google.com/file/d/1xHDMGl6HJZwtarNWkEV3T4O9X4ZQYz2Y/view) |
 | **M3FD** | [Original M3FD Dataset](https://github.com/JinyuanLiu-CV/TarDAL) |
 | **LLVIP** | [Original LLVIP Dataset](https://github.com/bupt-ai-cz/LLVIP) |
