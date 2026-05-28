@@ -58,3 +58,14 @@ This approach strengthens feature representation while preserving computational 
 
 ### FLIR: 
 
+### Framework specifications of CFGPNet model scales
+
+**Input size:** 640×640
+
+| **Model** | **#Param. (M)** | **GFLOPs (G)** | **FPS** | **Model Size (MB)** | **#Layers** |
+|:--|--:|--:|--:|--:|--:|
+| **CFGPNet-m** | 21.0 | 94.6 | 1463.4 | 41.6 | 1165 |
+| **CFGPNet-c** | 71.7 | 362.2 | 386.1 | 138.8 | 1165 |
+| **CFGPNet-e** | 180.9 | 560.7 | 136.9 | 349.6 | 1806 |
+
+> **Notes:** #Param. and GFLOPs are reported for a single forward pass at `1×6×640×640`. FPS is measured by timing the forward pass only, excluding data loading and preprocessing.
