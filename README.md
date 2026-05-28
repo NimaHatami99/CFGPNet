@@ -316,7 +316,7 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [JFDet (2026)](https://www.mdpi.com/2072-4292/18/1/176) | 79.6 | -- | -- |
 | **RGB-T** | [PDBA-MRB (2026)](https://doi.org/10.21203/rs.3.rs-9380305/v1) | 75.1 | 46.3 | 43.5 |
 | **RGB-T** | [YOLO-CH (2026)](https://www.mdpi.com/2504-446X/10/5/350) | 65.3 | 40.0 | 5.6 |
-| **RGB-T** | YOLO-MSFF (2026) | 76.0 | 44.1 | 59.8 |
+| **RGB-T** | [YOLO-MSFF (2026)](https://ieeexplore.ieee.org/abstract/document/11519149) | 76.0 | 44.1 | 59.8 |
 | **RGB-T** | CFGPNet-m | 79.8 | <ins>52.4</ins> | 21.0 |
 | **RGB-T** | CFGPNet-c | <ins>83.3</ins> | <ins>56.9</ins> | 71.7 |
 | **RGB-T** | CFGPNet-e | <ins>82.9</ins> | <ins>54.2</ins> | 180.9 |
