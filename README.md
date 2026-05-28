@@ -121,7 +121,7 @@ This approach strengthens feature representation while preserving computational 
 |:--:|:--:|:--:|:--:|:--:|
 | **T** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 78.5 | 49.0 | -- |
 | **T** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 76.9 | 46.6 | -- |
-| **T** | [RetinaNet (2017)](https://openaccess.thecvf.com/content_ICCV_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html) | 79.3 | 49.3 | -- |
+| **T** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 79.3 | 49.3 | -- |
 | **T** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 80.5 | 50.6 | -- |
 | **T** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 81.3 | 51.0 | -- |
 | **T** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 81.2 | 50.8 | -- |
@@ -130,7 +130,7 @@ This approach strengthens feature representation while preserving computational 
 | **T** | [EfficientViT (2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_EfficientViT_Memory_Efficient_Vision_Transformer_With_Cascaded_Group_Attention_CVPR_2023_paper.html) | 80.7 | 50.3 | -- |
 | **RGB** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 80.8 | 51.1 | -- |
 | **RGB** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 79.4 | 48.6 | -- |
-| **RGB** | [RetinaNet (2017)](https://openaccess.thecvf.com/content_ICCV_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html) | 81.9 | 51.4 | -- |
+| **RGB** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 81.9 | 51.4 | -- |
 | **RGB** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 83.2 | 52.3 | -- |
 | **RGB** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 84.3 | 53.4 | -- |
 | **RGB** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 83.7 | 54.3 | -- |
