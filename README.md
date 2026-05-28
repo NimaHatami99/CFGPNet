@@ -36,3 +36,11 @@ MFE:
   </a>
 </p> 
 
+CEA: 
+
+<p align="center">
+  <a href="docs/EEMA.png">
+    <img src="docs/EEMA.png" alt="CEA" width="40%">
+  </a>
+</p> 
+
