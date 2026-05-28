@@ -587,13 +587,13 @@ weights/
 To run validation, use the following command:
 
 ```bash
-python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --data datasets/FLIR.yaml --weights weights/CFGPNet-e.pt --name exp12 --exist-ok
+python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --data datasets/FLIR.yaml --weights weights/FLIR/CFGPNet-e.pt --name exp12 --exist-ok
 ```
 
 To run Inference, use the following command:
 
 ```bash
-python detect.py --conf 0.1 --device 0 --weights weights/CFGPNet-e.pt --source data --name CFGPNet-e_detect1 --exist-ok
+python detect.py --conf 0.1 --device 0 --weights weights/FLIR/CFGPNet-e.pt --source data --name CFGPNet-e_detect1 --exist-ok
 ```
 
 The file names for pair-images on which you are to perform inference must be like this: 
