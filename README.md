@@ -383,3 +383,131 @@ This approach strengthens feature representation while preserving computational 
 
 - Other requirements can be seen in requirements.txt
 
+## 📊 Datasets
+
+Five multispectral object detection datasets are used in this project:
+
+- **FLIR**
+- **M3FD**
+- **LLVIP**
+- **VEDAI**
+- **MFAD**
+
+For convenience, formatted versions of all datasets have been provided. These formatted datasets are ready to be used directly with the code in this repository.
+
+Links to the unformatted datasets are also provided. If you download the original datasets, they can be formatted and preprocessed using the scripts in the [`preprocess/`](preprocess/) folder.
+
+---
+
+## 📁 Dataset Format
+
+All datasets should follow the same folder organization used in this repository.
+
+For example, the **FLIR** dataset should be organized as follows:
+
+```code
+FLIR/
+├── train/
+│   ├── img/
+│   │   ├── 000001.jpg
+│   │   ├── 000002.jpg
+│   │   └── ...
+│   ├── imgr/
+│   │   ├── 000001.jpg
+│   │   ├── 000002.jpg
+│   │   └── ...
+│   └── label/
+│       ├── 000001.txt
+│       ├── 000002.txt
+│       └── ...
+├── val/
+│   ├── img/
+│   │   └── ...
+│   ├── imgr/
+│   │   └── ...
+│   └── label/
+│       └── ...
+└── test/
+    ├── img/
+    │   └── ...
+    ├── imgr/
+    │   └── ...
+    └── label/
+        └── ...
+```
+
+where:
+
+```code
+train rgb images:        FLIR/train/img
+train infrared images:   FLIR/train/imgr
+train labels:            FLIR/train/label
+
+validation rgb images:   FLIR/val/img
+validation infrared images: FLIR/val/imgr
+validation labels:       FLIR/val/label
+
+test rgb images:         FLIR/test/img
+test infrared images:    FLIR/test/imgr
+test labels:             FLIR/test/label
+```
+
+Before training or testing, place all dataset yaml files under the `datasets/` directory and make sure the addresses to the real files are given correctly in the yaml files:
+
+```code
+datasets/
+├── FLIR.yaml
+├── M3FD.yaml
+├── LLVIP.yaml
+├── VEDAI_1.yaml
+└── MFAD.yaml
+```
+
+---
+
+## ✅ Formatted Datasets
+
+The following links contain the datasets in the required format.
+
+| **Dataset** | **Download Link** |
+|:--:|:--:|:--:|:--|
+| **FLIR** | [Google Drive](https://drive.google.com/drive/folders/1Q9mC5LZuLypQq2v6SYJ_HIBvh2-d6PgA?usp=sharing) |
+| **M3FD** | [Google Drive](https://drive.google.com/drive/folders/1PJOvtImeOQMhOQHdGjBSjRbZrjskjHe7?usp=sharing) |
+| **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/1ahLgT-II9muQ3V91B70wVCkdmg7oEs27?usp=sharing) |
+| **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1XW4xcaWrls6kQ9xVsX4owm3Y5YgX1rLU?usp=sharing) |
+
+---
+
+## ✅ Formatted VEDAI Dataset
+
+The **VEDAI** dataset has **10 possible train/validation splits**. All formatted splits are provided below.
+
+| **VEDAI Split** | **Download Link** | **Format** | **Notes** |
+|:--:|:--:|:--:|:--|
+| **Split 1** | [Google Drive](https://drive.google.com/drive/folders/19L4RhRgKkAJSG8IZDwGy4XtFciLqiW-Z?usp=sharing) |
+| **Split 2** | [Google Drive](https://drive.google.com/drive/folders/1hlOAaXsG-TLpBrQwY436GrxkDSz4DkOd?usp=sharing) |
+| **Split 3** | [Google Drive](https://drive.google.com/drive/folders/14d19Ieqn6FKElySZj4G8kQnrf_lwNd_b?usp=sharing) |
+| **Split 4** | [Google Drive](https://drive.google.com/drive/folders/1plZ-ihEGmqz2YZnkK_3nNyk7y8isBsMD?usp=sharing) |
+| **Split 5** | [Google Drive](https://drive.google.com/drive/folders/1iKo9SULd3en3ovt1q-OldUjN1ACzk__O?usp=sharing) |
+| **Split 6** | [Google Drive](https://drive.google.com/drive/folders/1Vu-awQacabQCrBb5-eBbHq028y-uQ7t9?usp=sharing) |
+| **Split 7** | [Google Drive](https://drive.google.com/drive/folders/1mKYfMcThNf0JncTY4dHINVmS240pJD48?usp=sharing) |
+| **Split 8** | [Google Drive](https://drive.google.com/drive/folders/1088SikL2zhbh5OLwx72Q-Zj3YZFNov4H?usp=sharing) |
+| **Split 9** | [Google Drive](https://drive.google.com/drive/folders/1j7MQlXDScgtRNbG4fRoN2b045WhgC9fo?usp=sharing) |
+| **Split 10** | [Google Drive](https://drive.google.com/drive/folders/1Z4_ZqRSnnKczMElgnZbrgvMrKv2Bj8Mx?usp=sharing) |
+
+---
+
+## 🛠 Original / Unformatted Datasets
+
+If you prefer to start from the original datasets, download them from the links below and use the preprocessing scripts in [`preprocess/`](preprocess/) to convert them into the required format.
+
+| **Dataset** | **Original Dataset Link** | **Preprocessing Folder** |
+|:--:|:--:|:--:|
+| **FLIR** | [Original FLIR Dataset](https://drive.google.com/file/d/1xHDMGl6HJZwtarNWkEV3T4O9X4ZQYz2Y/view) |
+| **M3FD** | [Original M3FD Dataset](https://github.com/JinyuanLiu-CV/TarDAL) |
+| **LLVIP** | [Original LLVIP Dataset](https://github.com/bupt-ai-cz/LLVIP) |
+| **VEDAI** | [Original VEDAI Dataset](https://downloads.greyc.fr/vedai/) |
+| **MFAD** | [Original MFAD Dataset](https://github.com/hukefy/EI2Det) |
+
+---
+
