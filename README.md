@@ -4,7 +4,7 @@
 This repository contains the official implementation of **CFGPNet**, a framework designed to improve multispectral object detection through **Extensively improved GELAN**, **Computation efficient attention**, **Attention selection and Aggregation fusion**, and **Programmable gradient information**.  
 This approach strengthens feature representation while preserving computational efficiency, enhances cross-modal feature interaction and reduces redundant information transfer between visible and thermal branches, combines dense feature aggregation with selective attention-based emphasis, and also improves gradient delivery and optimization quality without altering the inference pathway. 
 
-CFGPNet-c, -m:
+### CFGPNet-c, -m:
 
 <p align="center">
   <a href="docs/dualyolo2-c.png">
@@ -12,7 +12,7 @@ CFGPNet-c, -m:
   </a>
 </p>
 
-CFGPNet-e:
+### CFGPNet-e:
 
 <p align="center">
   <a href="docs/dualyolo2-e.png">
@@ -20,7 +20,7 @@ CFGPNet-e:
   </a>
 </p>
 
-RepViTCSPELAN4: 
+### RepViTCSPELAN4: 
 
 <p align="center">
   <a href="docs/RepViTCSPELAN4.png">
@@ -28,7 +28,7 @@ RepViTCSPELAN4:
   </a>
 </p> 
 
-MFE: 
+### MFE: 
 
 <p align="center">
   <a href="docs/shuffle.png">
@@ -36,7 +36,7 @@ MFE:
   </a>
 </p> 
 
-CEA: 
+### CEA: 
 
 <p align="center">
   <a href="docs/EEMA.png">
@@ -44,11 +44,17 @@ CEA:
   </a>
 </p> 
 
-ASAF: 
+### ASAF: 
 
 <p align="center">
   <a href="docs/FeatFuse.png">
     <img src="docs/FeatFuse.png" alt="ASAF" width="90%">
   </a>
 </p> 
+
+--- 
+
+## Performance 
+
+### FLIR: 
 
