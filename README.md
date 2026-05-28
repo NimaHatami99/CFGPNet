@@ -10,8 +10,5 @@ models:
   <a href="docs/dualyolo2-c.png">
     <img src="docs/dualyolo2-c.png" alt="CFGPNet-c, -m" width="45%">
   </a>
-  <a href="docs/dualyolo2-e.png">
-    <img src="docs/dualyolo2-e.png" alt="CFGPNet-e" width="45%">
-  </a>
 </p>
 
