@@ -107,6 +107,8 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [CFGPNet-c](https://arxiv.org/abs/1504.08083) | 79.8 | <ins>43.6</ins> | 71.7 |
 | **RGB-T** | [CFGPNet-e](https://arxiv.org/abs/1504.08083) | <ins>80.7</ins> | <ins>45.0</ins> | 180.9 |
 
+> **Notes:** The three best results are underlined.
+
 ## Framework specifications
 
 ### CFGPNet model scales
