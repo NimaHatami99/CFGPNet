@@ -617,3 +617,25 @@ Use the following NMS IoU thresholds when validating CFGPNet models on each data
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | **NMS IoU threshold** | 0.6 | 0.5 | 0.65 | 0.45 | 0.55 |
 
+## Acknowledgements
+
+<details><summary> <b>Expand</b> </summary>
+
+* [https://github.com/WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)
+* [https://github.com/YOLOonMe/EMA-attention-module](https://github.com/YOLOonMe/EMA-attention-module)
+* [https://arxiv.org/abs/2403.01123](https://arxiv.org/abs/2403.01123)
+* [https://github.com/andreasveit/densenet-pytorch/](https://github.com/andreasveit/densenet-pytorch/)
+* [https://github.com/VainF/pytorch-msssim](https://github.com/VainF/pytorch-msssim)
+* [https://github.com/THU-MIG/RepViT](https://github.com/THU-MIG/RepViT)
+
+</details>
+
+--- 
+
+## 📑 Citation
+
+If you find this repository useful, please cite our paper:
+
+```bibtex
+
+```
