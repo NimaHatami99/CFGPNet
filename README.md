@@ -269,6 +269,66 @@ This approach strengthens feature representation while preserving computational 
   </a>
 </p>
 
+### Quantitative comparison on the **VEDAI** dataset
+
+| **Modality** | **Model** | **mAP50** | **mAP50:95** | **Weights (M)** |
+|:--:|:--:|:--:|:--:|:--:|
+| **T** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 54.2 | 38.2 | -- |
+| **T** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 52.9 | 36.6 | -- |
+| **T** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 60.5 | 39.4 | -- |
+| **T** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 57.5 | 38.3 | -- |
+| **T** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 61.1 | 31.1 | -- |
+| **T** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 62.2 | 43.6 | -- |
+| **T** | [MobileFormer (2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Mobile-Former_Bridging_MobileNet_and_Transformer_CVPR_2022_paper.html) | 56.6 | 37.4 | -- |
+| **T** | [EfficientViT (2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_EfficientViT_Memory_Efficient_Vision_Transformer_With_Cascaded_Group_Attention_CVPR_2023_paper.html) | 57.5 | 37.8 | -- |
+| **RGB** | [Fast R-CNN (2015)](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html) | 60.8 | 41.2 | -- |
+| **RGB** | [SSD (2016)](https://doi.org/10.1007/978-3-319-46448-0_2) | 57.2 | 40.3 | -- |
+| **RGB** | [RetinaNet (2017)](https://ieeexplore.ieee.org/document/8417976) | 64.7 | 43.3 | -- |
+| **RGB** | [YOLOv5 (2022)](https://zenodo.org/records/7002879) | 62.3 | 43.4 | -- |
+| **RGB** | [YOLOv8 (2023)](https://github.com/ultralytics/ultralytics) | 67.4 | 44.2 | -- |
+| **RGB** | [YOLOv11 (2024)](https://arxiv.org/abs/2410.17725) | 67.9 | 44.1 | -- |
+| **RGB** | [MobileFormer (2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Mobile-Former_Bridging_MobileNet_and_Transformer_CVPR_2022_paper.html) | 62.1 | 42.2 | -- |
+| **RGB** | [EfficientViT (2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_EfficientViT_Memory_Efficient_Vision_Transformer_With_Cascaded_Group_Attention_CVPR_2023_paper.html) | 64.5 | 42.9 | -- |
+| **RGB-T** | [CFT (2021)](https://arxiv.org/abs/2111.00273) | 77.2 | -- | 196.9 |
+| **RGB-T** | [ICAFusion (2024)](https://www.sciencedirect.com/science/article/pii/S0031320323006118) | 76.6 | 44.9 | 120.2 |
+| **RGB-T** | [CMAFF (2022)](https://www.sciencedirect.com/science/article/pii/S0031320322002679) | 78.6 | 49.1 | 12.5 |
+| **RGB-T** | [MMI-Det (2024)](https://doi.org/10.1109/TCSVT.2024.3418965) | 76.6 | 42.7 | 207.6 |
+| **RGB-T** | [MDA (2024)](https://ieeexplore.ieee.org/document/10770223) | 77.3 | -- | -- |
+| **RGB-T** | [MCOR (2025)](https://openaccess.thecvf.com/content/WACV2025/html/Jang_Multispectral_Object_Detection_Enhanced_by_Cross-Modal_Information_Complementary_and_Cosine_WACV_2025_paper.html) | 76.2 | 46.3 | -- |
+| **RGB-T** | DF-Net (2026) | 66.1 | 39.6 | -- |
+| **RGB-T** | [AFFNet (2026)](https://doi.org/10.1109/TIP.2026.3661868) | 75.2 | 39.7 | 120.4 |
+| **RGB-T** | [C<sup>2</sup>DFF-Net (2025)](https://doi.org/10.1109/TGRS.2025.3614295) | 79.8 | 50.2 | 6.6 |
+| **RGB-T** | [CARNet (2026)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5292837) | 81.4 | 51.0 | 271.7 |
+| **RGB-T** | [COMO (2026)](https://www.sciencedirect.com/science/article/pii/S1566253525004877) | <ins>81.7</ins> | 50.3 | 16.3 |
+| **RGB-T** | [CrossModalNet (2026)](https://www.sciencedirect.com/science/article/pii/S0957417425032920) | 79.3 | 49.2 | 92.8 |
+| **RGB-T** | [DDFD (2025)](https://doi.org/10.1145/3746027.3755183) | 78.3 | -- | -- |
+| **RGB-T** | [DB-CMCNet (2026)](https://doi.org/10.1080/01431161.2026.2646583) | 75.6 | 47.7 | -- |
+| **RGB-T** | [M2I2HA (2026)](https://arxiv.org/abs/2601.14776) | 73.5 | 43.6 | 37.6 |
+| **RGB-T** | [MCISFNet (2025)](https://doi.org/10.1109/JSTARS.2025.3648023) | 76.7 | -- | 13.9–54.7 |
+| **RGB-T** | [PMDet (2026)](https://www.mdpi.com/2072-4292/18/7/1068) | 74.7 | 45.5 | 277.1 |
+| **RGB-T** | [ERFF (2026)](https://www.sciencedirect.com/science/article/pii/S1566253525011728) | 79.5 | -- | 17.2 |
+| **RGB-T** | [SAFF (2026)](https://doi.org/10.1109/TGRS.2026.3674467) | 63.3 | 43.3 | -- |
+| **RGB-T** | [VIF-YOLO (2025)](https://doi.org/10.1109/ICPADS67057.2025.11322970) | 75.1 | 44.9 | -- |
+| **RGB-T** | [DHANet (2025)](https://doi.org/10.1109/TGRS.2025.3578675) | 78.2 | -- | -- |
+| **RGB-T** | [FQDNet (2025)](https://www.mdpi.com/2072-4292/17/6/1095) | 75.9 | 47.7 | 4.7–17.6 |
+| **RGB-T** | [MMYFnet (2024)](https://www.mdpi.com/2072-4292/16/23/4451) | 80.0 | 52.1 | 17.2 |
+| **RGB-T** | [MOD-YOLO (2024)](https://www.sciencedirect.com/science/article/pii/S0167865524001399) | 59.3 | 36.8 | 16.0–24.9 |
+| **RGB-T** | [JFDet (2026)](https://www.mdpi.com/2072-4292/18/1/176) | 79.6 | -- | -- |
+| **RGB-T** | [PDBA-MRB (2026)](https://doi.org/10.21203/rs.3.rs-9380305/v1) | 75.1 | 46.3 | 43.5 |
+| **RGB-T** | [YOLO-CH (2026)](https://www.mdpi.com/2504-446X/10/5/350) | 65.3 | 40.0 | 5.6 |
+| **RGB-T** | YOLO-MSFF (2026) | 76.0 | 44.1 | 59.8 |
+| **RGB-T** | CFGPNet-m | 79.8 | <ins>52.4</ins> | 21.0 |
+| **RGB-T** | CFGPNet-c | <ins>83.3</ins> | <ins>56.9</ins> | 71.7 |
+| **RGB-T** | CFGPNet-e | <ins>82.9</ins> | <ins>54.2</ins> | 180.9 |
+
+> **Notes:** The three best results are underlined.
+
+<p align="center">
+  <a href="docs/VEDAI_map_param_diagram.png">
+    <img src="docs/VEDAI_map_param_diagram.png" alt="VEDAI performance" width="60%">
+  </a>
+</p>
+
 ## Framework specifications
 
 ### CFGPNet model scales
