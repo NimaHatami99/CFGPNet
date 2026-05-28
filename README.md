@@ -24,7 +24,15 @@ RepViTCSPELAN4:
 
 <p align="center">
   <a href="docs/RepViTCSPELAN4.png">
-    <img src="docs/RepViTCSPELAN4.png" alt="RepViTCSPELAN4" width="45%">
+    <img src="docs/RepViTCSPELAN4.png" alt="RepViTCSPELAN4" width="40%">
+  </a>
+</p> 
+
+MFE: 
+
+<p align="center">
+  <a href="docs/shuffle.png">
+    <img src="docs/shuffle.png" alt="MFE" width="90%">
   </a>
 </p> 
 
