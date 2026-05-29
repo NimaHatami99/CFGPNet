@@ -654,6 +654,11 @@ To better illustrate the qualitative performance of CFGPNet, visualization resul
 * [https://github.com/houqb/CoordAttention](https://github.com/houqb/CoordAttention)
 * [https://github.com/hujie-frank/SENet](https://github.com/hujie-frank/SENet)
 * [https://github.com/Peachypie98/CBAM](https://github.com/Peachypie98/CBAM)
+* [https://github.com/zhanghengdev/CFR](https://github.com/zhanghengdev/CFR)
+* [https://github.com/JinyuanLiu-CV/TarDAL](https://github.com/JinyuanLiu-CV/TarDAL)
+* [https://github.com/bupt-ai-cz/LLVIP](https://github.com/bupt-ai-cz/LLVIP)
+* [https://downloads.greyc.fr/vedai/](https://downloads.greyc.fr/vedai/)
+* [https://github.com/hukefy/EI2Det](https://github.com/hukefy/EI2Det)
 
 </details>
 
