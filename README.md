@@ -606,6 +606,8 @@ To run validation, use the following command:
 python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --data datasets/FLIR.yaml --weights weights/FLIR/CFGPNet-e.pt --name exp12 --exist-ok
 ```
 
+> **Notes:** To validate the test set, use --task test.
+
 To run Inference, use the following command:
 
 ```bash
