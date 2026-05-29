@@ -525,7 +525,7 @@ Single GPU training
 
 ``` shell
 # train CFGPNet models
-python train.py --device 0 --sync-bn --batch 5 --epochs 3 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-m.yaml --name exp12 --cache ram --exist-ok --patience 0 
+python train.py --device 0 --sync-bn --batch 5 --epochs 600 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-m.yaml --name exp12 --cache ram --exist-ok --patience 0 
 ```
 
 Multiple GPU training
