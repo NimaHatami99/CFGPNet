@@ -651,6 +651,9 @@ To better illustrate the qualitative performance of CFGPNet, visualization resul
 * [https://github.com/andreasveit/densenet-pytorch/](https://github.com/andreasveit/densenet-pytorch/)
 * [https://github.com/VainF/pytorch-msssim](https://github.com/VainF/pytorch-msssim)
 * [https://github.com/THU-MIG/RepViT](https://github.com/THU-MIG/RepViT)
+* [https://github.com/houqb/CoordAttention](https://github.com/houqb/CoordAttention)
+* [https://github.com/hujie-frank/SENet](https://github.com/hujie-frank/SENet)
+* [https://github.com/Peachypie98/CBAM](https://github.com/Peachypie98/CBAM)
 
 </details>
 
