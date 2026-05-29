@@ -361,7 +361,7 @@ This approach strengthens feature representation while preserving computational 
   </a>
 </p>
 
-Also, precision-recall curves for CFGPnet-e model performance across different datasets is shown below. 
+To further illustrate performance, Figure below presents the precision-recall curves for the CFGPnet-e model across multiple datasets.
 
 <p align="center">
   <a href="docs/PR.png">
