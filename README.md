@@ -579,21 +579,13 @@ weights/
 │   ├── CFGPNet-c.pt
 │   └── CFGPNet-e.pt
 ├── M3FD/
-│   ├── CFGPNet-m.pt
-│   ├── CFGPNet-c.pt
-│   └── CFGPNet-e.pt
+│       └── ...
 ├── LLVIP/
-│   ├── CFGPNet-m.pt
-│   ├── CFGPNet-c.pt
-│   └── CFGPNet-e.pt
+│       └── ...
 ├── VEDAI_1/
-│   ├── CFGPNet-m.pt
-│   ├── CFGPNet-c.pt
-│   └── CFGPNet-e.pt
+│       └── ...
 └── MFAD/
-    ├── CFGPNet-m.pt
-    ├── CFGPNet-c.pt
-    └── CFGPNet-e.pt
+        └── ...
 ```
 
 ---
