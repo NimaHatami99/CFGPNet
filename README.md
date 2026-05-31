@@ -600,6 +600,15 @@ python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --da
 
 > **Notes:** To validate the test set, use --task test.
 
+For example, if you run validation with the **CFGPNet-c** model on **split 1** of the **VEDAI** dataset, you should see a log similar to the following: 
+
+<details> 
+<summary>Validation log</summary>
+
+```text
+PASTE YOUR VALIDATION LOG HERE
+```
+
 To run Inference, use the following command:
 
 ```bash
