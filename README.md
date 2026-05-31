@@ -567,17 +567,8 @@ The trained weights of **CFGPNet-m**, **CFGPNet-c**, and **CFGPNet-e** for five 
 | **FLIR** | [Google Drive](https://drive.google.com/drive/folders/1FMTGgb-_xi9qW107q-mwX9t8udTSur69?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1TrCpz4MHomOkBfBj-i815ZsDxK6y-4Q1?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1uDZC4I9LWFp_K46d6VH5rvjm8BiQcKnZ?usp=sharing) |
 | **M3FD** | [Google Drive](https://drive.google.com/drive/folders/1rA1eisUG-AqWT8vnKbHe0iFuwmyDCXyT?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1Shg8dxkNS6hcBq0SnDcJMk1ABWG8kRxQ?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1V2UV4IQiLTY63SqdooAg4UN8Diw8vrxJ?usp=sharing) |
 | **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/1m1rooooz4rMQaqwS0cDDGwc-1uOm0G4a?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/17P5-hLpvJmy7AujTXNlHcdjp63jdbuaW?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FvtoHW9x-RRDJxjlpZDTX4SYQVL8LmRv?usp=sharing) |
-| **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1fl1CKyJO4dLnD4_2dhZ6FHvBF9yv2gNh?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1nPm9hHtwty-BoXjkDT_f7WSvb5THe6xN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FU2LsksTc8jvgGV1MU2uRgH88KPe1MF-?usp=sharing) |
 | **VEDAI_1** | [Google Drive](https://drive.google.com/drive/folders/1AY9JXRuOjEVTOWcts-KEdGjppoKCTbtw?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1w7pdW0uYm3rKn-tTYGNOixahZOUTDI4l?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1LGKyeAmDCP4qCmPLivFApM4soiLFk9Lr?usp=sharing) |
-| **VEDAI_2** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_3** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_4** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_5** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_6** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_7** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_8** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_9** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
-| **VEDAI_10** | [Google Drive]() | [Google Drive]() | [Google Drive]() |
+| **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1fl1CKyJO4dLnD4_2dhZ6FHvBF9yv2gNh?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1nPm9hHtwty-BoXjkDT_f7WSvb5THe6xN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FU2LsksTc8jvgGV1MU2uRgH88KPe1MF-?usp=sharing) |
 
 After downloading the weights, place them in the `weights/` directory. For example:
 
