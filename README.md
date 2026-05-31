@@ -604,10 +604,10 @@ For example, if you run validation with the **CFGPNet-c** model on **split 1** o
 
 <details> 
 <summary>Validation log</summary>
-
-```text
+```
 PASTE YOUR VALIDATION LOG HERE
 ```
+<details> 
 
 To run Inference, use the following command:
 
