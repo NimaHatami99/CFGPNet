@@ -149,6 +149,7 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [TarDAL (2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Target-Aware_Dual_Adversarial_Learning_and_a_Multi-Scenario_Multi-Modality_Benchmark_To_CVPR_2022_paper.html) | 80.7 | 50.1 | -- |
 | **RGB-T** | [MMFN (2025)](https://doi.org/10.1109/TCSVT.2024.3454631) | 86.2 | -- | 176.4 |
 | **RGB-T** | [CrossModalNet (2026)](https://www.sciencedirect.com/science/article/pii/S0957417425032920) | 87.3 | 55.6 | 92.8 |
+| **RGB-T** | [ALCE-FusionNet (2026)](https://ieeexplore.ieee.org/abstract/document/11534533) | 87.5 | 59.7 | -- |
 | **RGB-T** | [LEFuse (2025)](https://www.sciencedirect.com/science/article/pii/S0925231225002644) | 78.9 | 48.5 | -- |
 | **RGB-T** | [IVHL (2025)](https://doi.org/10.1109/TMM.2025.3639945) | 83.4 | 55.8 | 271.0 |
 | **RGB-T** | [FD2Net (2025)](https://ojs.aaai.org/index.php/AAAI/article/view/32507) | 83.5 | -- | -- |
@@ -257,6 +258,9 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [MDSF-Det (2026)](https://ieeexplore.ieee.org/abstract/document/11462879) | 94.9 | 62.9 | 151.6 |
 | **RGB-T** | [OARE (2026)](https://doi.org/10.1109/TMM.2026.3678036) | 95.9 | -- | -- |
 | **RGB-T** | [YOLO-MSFF (2026)](https://ieeexplore.ieee.org/abstract/document/11519149) | 97.2 | 67.1 | 59.8 |
+| **RGB-T** | [SAGF-Net (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0031320326009891) | <ins>97.6</ins> | 66.1 | 125.8 |
+| **RGB-T** | [ALCE-FusionNet (2026)](https://ieeexplore.ieee.org/abstract/document/11534533) | 96.6 | 65.3 | -- |
+| **RGB-T** | [TGRDet (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0950705126009974) | 96.5 | -- | 27.8 |
 | **RGB-T** | CFGPNet-m | <ins>97.8</ins> | 67.1 | 21.0 |
 | **RGB-T** | CFGPNet-c | <ins>97.7</ins> | <ins>68.8</ins> | 71.7 |
 | **RGB-T** | CFGPNet-e | 97.5 | <ins>68.9</ins> | 180.9 |
