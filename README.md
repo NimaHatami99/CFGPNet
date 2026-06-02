@@ -157,6 +157,7 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [DMFusion-YOLOv8 (2025)](https://doi.org/10.1007/s11760-025-05014-6) | 84.2 | 55.4 | 13.2 |
 | **RGB-T** | [FreDFT (2025)](https://arxiv.org/abs/2511.10046) | 88.4 | 59.7 | -- |
 | **RGB-T** | [MAFTNet (2026)](https://doi.org/10.1109/JSEN.2025.3649961) | 75.6 | 51.1 | 30.5 |
+| **RGB-T** | [CrossWeaver (2026)](https://openaccess.thecvf.com/content/CVPR2026F/html/Yang_CrossWeaver_Towards_Efficient_Cross-Modal_Interweaving_and_Decoupling_for_Weakly-Aligned_Multispectral_CVPRF_2026_paper.html) | 67.0 | 42.1 | 19.7 |
 | **RGB-T** | [MCFFSQR (2025)](https://www.sciencedirect.com/science/article/pii/S1350449525005250) | 80.8 | 53.6 | 77.0 |
 | **RGB-T** | [EFAF (2025)](https://doi.org/10.1109/JSTARS.2025.3648007) | 88.8 | 58.0 | 395.0 |
 | **RGB-T** | [SCIA (2025)](https://www.sciencedirect.com/science/article/pii/S0893608025014145) | 88.6 | 59.9 | -- |
