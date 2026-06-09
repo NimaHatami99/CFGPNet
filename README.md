@@ -111,9 +111,12 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/FLIR_map_param_diagram.png">
-    <img src="docs/FLIR_map_param_diagram.png" alt="FLIR performance" width="60%">
+    <img src="docs/FLIR_map_param_diagram.png" alt="FLIR performance param" width="45%">
   </a>
-</p>
+  <a href="docs/FLIR_map_flop_diagram.png">
+    <img src="docs/FLIR_map_flop_diagram.png" alt="FLIR performance flop" width="45%">
+  </a>
+</p> 
 
 ### Quantitative comparison on the **M3FD** dataset
 
@@ -185,9 +188,12 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/M3FD_map_param_diagram.png">
-    <img src="docs/M3FD_map_param_diagram.png" alt="M3FD performance" width="60%">
+    <img src="docs/M3FD_map_param_diagram.png" alt="M3FD performance param" width="45%">
   </a>
-</p>
+  <a href="docs/M3FD_map_flop_diagram.png">
+    <img src="docs/M3FD_map_flop_diagram.png" alt="M3FD performance flop" width="45%">
+  </a>
+</p> 
 
 ### Quantitative comparison on the **LLVIP** dataset
 
@@ -270,9 +276,12 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/LLVIP_map_param_diagram.png">
-    <img src="docs/LLVIP_map_param_diagram.png" alt="LLVIP performance" width="60%">
+    <img src="docs/LLVIP_map_param_diagram.png" alt="LLVIP performance param" width="45%">
   </a>
-</p>
+  <a href="docs/LLVIP_map_flop_diagram.png">
+    <img src="docs/LLVIP_map_flop_diagram.png" alt="LLVIP performance flop" width="45%">
+  </a>
+</p> 
 
 ### Quantitative comparison on the **VEDAI** dataset
 
@@ -325,9 +334,12 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/VEDAI_map_param_diagram.png">
-    <img src="docs/VEDAI_map_param_diagram.png" alt="VEDAI performance" width="60%">
+    <img src="docs/VEDAI_map_param_diagram.png" alt="VEDAI performance param" width="45%">
   </a>
-</p>
+  <a href="docs/VEDAI_map_flop_diagram.png">
+    <img src="docs/VEDAI_map_flop_diagram.png" alt="VEDAI performance flop" width="45%">
+  </a>
+</p> 
 
 ### Quantitative comparison on the **MFAD** dataset
 
@@ -357,9 +369,12 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/MFAD_map_param_diagram.png">
-    <img src="docs/MFAD_map_param_diagram.png" alt="MFAD performance" width="60%">
+    <img src="docs/MFAD_map_param_diagram.png" alt="MFAD performance param" width="45%">
   </a>
-</p>
+  <a href="docs/MFAD_map_flop_diagram.png">
+    <img src="docs/MFAD_map_flop_diagram.png" alt="MFAD performance flop" width="45%">
+  </a>
+</p> 
 
 To further illustrate performance, Figure below presents the precision-recall curves for the CFGPnet-e model across multiple datasets.
 
