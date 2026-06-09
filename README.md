@@ -180,6 +180,7 @@ This approach strengthens feature representation while preserving computational 
 | **RGB-T** | [OARE (2026)](https://doi.org/10.1109/TMM.2026.3678036) | 88.4 | -- | -- |
 | **RGB-T** | [DF-Net (2026)](https://ieeexplore.ieee.org/document/11514987) | 80.0 | 52.6 | -- |
 | **RGB-T** | [WD-FQDet (2026)](https://arxiv.org/abs/2605.13621) | 73.7 | 46.4 | 60.7 |
+| **RGB-T** | [AlignFree-Net (2026)](https://ieeexplore.ieee.org/abstract/document/11540795) | 86.3 | -- | 38.5 |
 | **RGB-T** | CFGPNet-m | 87.8 | <ins>60.3</ins> | 21.0 |
 | **RGB-T** | CFGPNet-c | <ins>89.0</ins> | <ins>62.2</ins> | 71.7 |
 | **RGB-T** | CFGPNet-e | <ins>89.9</ins> | <ins>63.4</ins> | 180.9 | 
