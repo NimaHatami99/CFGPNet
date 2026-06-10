@@ -189,7 +189,7 @@ This approach strengthens feature representation while preserving computational 
 
 <p align="center">
   <a href="docs/M3FD_map_param_diagram.png">
-    <img src="docs/M3FD_map_param_diagram.png?v=2" alt="M3FD performance param" width="45%">
+    <img src="docs/M3FD_map_param_diagram.png?v=26" alt="M3FD performance param" width="45%">
   </a>
   <a href="docs/M3FD_map_flop_diagram.png">
     <img src="docs/M3FD_map_flop_diagram.png" alt="M3FD performance flop" width="45%">
