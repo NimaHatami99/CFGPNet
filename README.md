@@ -549,14 +549,14 @@ Single GPU training
 
 ``` shell
 # train CFGPNet models
-python train.py --device 0 --sync-bn --batch 5 --epochs 600 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-m.yaml --name exp12 --cache ram --exist-ok --patience 0 
+python train.py --device 0 --sync-bn --batch 5 --epochs 300 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-m.yaml --name exp12 --cache ram --exist-ok
 ```
 
 Multiple GPU training
 
 ``` shell
 # train CFGPNet models
-python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.py --workers 8 --device 0,1 --sync-bn --batch 10 --epochs 600 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-c.yaml --name exp12 --cache ram --exist-ok --patience 0
+python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.py --workers 8 --device 0,1 --sync-bn --batch 10 --epochs 300 --min-items 0 --close-mosaic 15 --data datasets/M3FD.yaml --cfg models/detect/dualyolo2-c.yaml --name exp12 --cache ram --exist-ok
 ```
 
 ---
