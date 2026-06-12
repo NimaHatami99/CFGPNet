@@ -618,9 +618,7 @@ python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --da
 
 For example, if you run validation with the **CFGPNet-c** model on **split 1** of the **VEDAI** dataset, you should see a log similar to the following: 
 
-<details><summary> <b>Validation log</b> </summary>
-
-```
+``` shell
 /home/nima/anaconda3/envs/torchenv1/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
   warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
 [34m[1mval_dual: [0mdata=datasets/VEDAI_1.yaml, weights=['/home/nima/paper_1/experiments/VEDAI_1_c/82_9_best/runs/train/exp12/weights/best.pt'], batch_size=10, imgsz=640, conf_thres=0.001, iou_thres=0.45, max_det=300, task=val, device=0, workers=8, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=runs/val, name=exp12, exist_ok=True, half=False, min_items=0
@@ -658,7 +656,6 @@ Model summary: 1165 layers, 71739542 parameters, 0 gradients
                    van        120         10      0.877        0.7      0.909       0.64
 Speed: 0.4ms pre-process, 25.8ms inference, 0.9ms NMS per image at shape (10, 3, 640, 640)
 Results saved to [1mruns/val/exp12[0m
-
 ```
 
 </details>
