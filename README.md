@@ -733,7 +733,12 @@ If you find this repository useful, please cite our paper:
 ```bibtex
 
 ```
-
+@article{hatami2026cfgpnet,
+  title={CFGPNet: Cross-Attention-Based Fused Gradient Programmed Network Framework for Multispectral Object Detection},
+  author={Hatami, Nima and Faez, Karim and Sharifian, Saeed and Amindavar, Hamidreza},
+  journal={arXiv preprint arXiv:2608.06205},
+  year={2026}
+}
 --- 
 
 ## 📧 Contact
