@@ -629,42 +629,92 @@ python val.py --batch-size 10 --conf-thres 0.001 --iou-thres 0.6 --device 0 --da
 For example, if you run validation with the **CFGPNet-c** model on **split 1** of the **VEDAI** dataset, you should see a log similar to the following: 
 
 ``` shell
-/home/nima/anaconda3/envs/torchenv1/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+/home/nima/paper_1/parallel/dualyolo3/utils/general.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources as pkg
+/home/nima/.venvs/yolov9-mamba3/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
   warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
-[34m[1mval_dual: [0mdata=datasets/VEDAI_1.yaml, weights=['/home/nima/paper_1/experiments/VEDAI_1_c/82_9_best/runs/train/exp12/weights/best.pt'], batch_size=10, imgsz=640, conf_thres=0.001, iou_thres=0.45, max_det=300, task=val, device=0, workers=8, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=runs/val, name=exp12, exist_ok=True, half=False, min_items=0
-YOLO 🚀 2025-10-2 Python-3.10.9 torch-1.12.1.post200 CUDA:0 (NVIDIA GeForce RTX 3090, 24260MiB)
+[34m[1mval: [0mdata=/home/nima/paper_1/dualyolo2/datasets/VEDAI_1.yaml, weights=['best_dualgelan2-c-fp16.pt'], batch_size=1, imgsz=640, conf_thres=0.001, iou_thres=0.45, max_det=300, task=val, device=0, workers=8, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=runs/val, name=exp12, exist_ok=True, half=False, min_items=0
+YOLO 🚀 2026-9-2 Python-3.10.20 torch-2.9.1+cu128 CUDA:0 (NVIDIA GeForce RTX 3090, 24126MiB)
 
 Fusing layers... 
-Model summary: 1165 layers, 71739542 parameters, 0 gradients
+dualgelan2-c summary: 816 layers, 44854721 parameters, 0 gradients
 
 [34m[1mval: [0mScanning /home/nima/paper_1/datasets/VEDAI_1/val/label.cache... 120 images, 0 backgrounds, 0 corrupt: 100%|██████████| 120/120 00:00
 [34m[1mval: [0mScanning /home/nima/paper_1/datasets/VEDAI_1/val/label.cache... 120 images, 0 backgrounds, 0 corrupt: 100%|██████████| 120/120 00:00
 
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:   0%|          | 0/12 00:00
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:   8%|▊         | 1/12 00:00
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  17%|█▋        | 2/12 00:01
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  25%|██▌       | 3/12 00:01
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  33%|███▎      | 4/12 00:01
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  42%|████▏     | 5/12 00:02
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  50%|█████     | 6/12 00:02
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  58%|█████▊    | 7/12 00:02
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  67%|██████▋   | 8/12 00:03
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  75%|███████▌  | 9/12 00:03
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  83%|████████▎ | 10/12 00:03
-                 Class     Images  Instances          P          R      mAP50   mAP50-95:  92%|█████████▏| 11/12 00:03
-                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 12/12 00:04
-                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 12/12 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   0%|          | 0/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   1%|          | 1/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   2%|▎         | 3/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   4%|▍         | 5/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   6%|▌         | 7/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   8%|▊         | 9/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:   9%|▉         | 11/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  11%|█         | 13/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  12%|█▎        | 15/120 00:00
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  14%|█▍        | 17/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  16%|█▌        | 19/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  18%|█▊        | 21/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  19%|█▉        | 23/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  21%|██        | 25/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  22%|██▎       | 27/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  24%|██▍       | 29/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  26%|██▌       | 31/120 00:01
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  28%|██▊       | 33/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  29%|██▉       | 35/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  31%|███       | 37/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  32%|███▎      | 39/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  34%|███▍      | 41/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  36%|███▌      | 43/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  38%|███▊      | 45/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  39%|███▉      | 47/120 00:02
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  41%|████      | 49/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  42%|████▎     | 51/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  44%|████▍     | 53/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  46%|████▌     | 55/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  48%|████▊     | 57/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  49%|████▉     | 59/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  51%|█████     | 61/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  52%|█████▎    | 63/120 00:03
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  54%|█████▍    | 65/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  56%|█████▌    | 67/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  57%|█████▊    | 69/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  59%|█████▉    | 71/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  61%|██████    | 73/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  62%|██████▎   | 75/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  64%|██████▍   | 77/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  66%|██████▌   | 79/120 00:04
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  68%|██████▊   | 81/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  69%|██████▉   | 83/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  71%|███████   | 85/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  72%|███████▎  | 87/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  74%|███████▍  | 89/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  76%|███████▌  | 91/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  78%|███████▊  | 93/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  79%|███████▉  | 95/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  81%|████████  | 97/120 00:05
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  82%|████████▎ | 99/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  84%|████████▍ | 101/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  86%|████████▌ | 103/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  88%|████████▊ | 105/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  89%|████████▉ | 107/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  91%|█████████ | 109/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  92%|█████████▎| 111/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  94%|█████████▍| 113/120 00:06
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  96%|█████████▌| 115/120 00:07
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  98%|█████████▊| 117/120 00:07
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  99%|█████████▉| 119/120 00:07
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 120/120 00:07
                    all        120        365      0.802      0.721      0.833      0.569
                    car        120        134      0.901      0.812      0.915      0.596
                  truck        120         30      0.782      0.599       0.78      0.493
-                  boat        120         17      0.742      0.588      0.696       0.41
+                  boat        120         17      0.741      0.588      0.696       0.41
                tractor        120         19      0.834      0.632       0.84      0.533
-           camping car        120         39      0.671      0.786      0.782      0.544
-               pick-up        120         95      0.852      0.832      0.875      0.546
+           camping car        120         39      0.671      0.786      0.782      0.545
+               pick-up        120         95      0.853      0.832      0.875      0.547
                  plane        120          1      0.712          1      0.995      0.995
                  other        120         20      0.843      0.538      0.708      0.362
                    van        120         10      0.877        0.7      0.909       0.64
-Speed: 0.4ms pre-process, 25.8ms inference, 0.9ms NMS per image at shape (10, 3, 640, 640)
+Speed: 0.4ms pre-process, 20.5ms inference, 0.9ms NMS per image at shape (1, 6, 640, 640)
 Results saved to [1mruns/val/exp12[0m
 ```
 
