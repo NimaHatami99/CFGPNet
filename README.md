@@ -576,7 +576,7 @@ python -m torch.distributed.launch --nproc_per_node 2 --master_port 9527 train.p
 
 ### 📦 Trained Weights
 
-The trained weights of **CFGPNet-m**, **CFGPNet-c**, and **CFGPNet-e** for five datasets: **FLIR**, **M3FD**, **LLVIP**, **VEDAI_1**, and **MFAD** are provided.
+The original trained weights (before reparameterization) of **CFGPNet-m**, **CFGPNet-c**, and **CFGPNet-e** for five datasets: **FLIR**, **M3FD**, **LLVIP**, **VEDAI_1**, and **MFAD** are provided.
 
 | **Dataset** | **CFGPNet-m** | **CFGPNet-c** | **CFGPNet-e** |
 |:--:|:--:|:--:|:--:|
@@ -585,6 +585,16 @@ The trained weights of **CFGPNet-m**, **CFGPNet-c**, and **CFGPNet-e** for five 
 | **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/1m1rooooz4rMQaqwS0cDDGwc-1uOm0G4a?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/17P5-hLpvJmy7AujTXNlHcdjp63jdbuaW?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FvtoHW9x-RRDJxjlpZDTX4SYQVL8LmRv?usp=sharing) |
 | **VEDAI_1** | [Google Drive](https://drive.google.com/drive/folders/1AY9JXRuOjEVTOWcts-KEdGjppoKCTbtw?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1w7pdW0uYm3rKn-tTYGNOixahZOUTDI4l?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1LGKyeAmDCP4qCmPLivFApM4soiLFk9Lr?usp=sharing) |
 | **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1fl1CKyJO4dLnD4_2dhZ6FHvBF9yv2gNh?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1nPm9hHtwty-BoXjkDT_f7WSvb5THe6xN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1FU2LsksTc8jvgGV1MU2uRgH88KPe1MF-?usp=sharing) |
+
+Reparameterized trained weights are provided. 
+
+| **Dataset** | **CFGPNet-m** | **CFGPNet-c** | **CFGPNet-e** |
+|:--:|:--:|:--:|:--:|
+| **FLIR** | [Google Drive](https://drive.google.com/drive/folders/1vH5VGYWfq9rB4koBXF5WsIDeYQNWpjsF?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1QlwuzwW7u-f6udCL0CI6NMgLIvTlbQS8?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1jizfPt2sS9V6u2jhCMilZI_alyLdZOjh?usp=sharing) |
+| **M3FD** | [Google Drive](https://drive.google.com/drive/folders/16-i7oZNGgj_C_wNu0OQxYigdTpW0URT3?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1oWl038gL0lwK1uvK6ncGuoIYoPmUljDo?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1ySaG8X7QMLhtJ19xtLUEs9-XI4KNKA1N?usp=sharing) |
+| **LLVIP** | [Google Drive](https://drive.google.com/drive/folders/19ZHs2TrnPN8SI_YM5Efv4liRgpC4t2E6?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1o1PFO5b96nVv31nTxBDa5wEu5BlvFvfN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1faQwnAq2ex0xm0daMx3bU3KplaDAHpIZ?usp=sharing) |
+| **VEDAI_1** | [Google Drive](https://drive.google.com/drive/folders/1I1R_ftk3l3ErZ-rRUF6LFWcOkRjJZRwM?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1Rn_EZLPIaakl_2M8Q054apQT4rdgzN5q?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1xVw6fJ7FCkheIFMLPuiQ-4XXuihun0pj?usp=sharing) |
+| **MFAD** | [Google Drive](https://drive.google.com/drive/folders/1zd_1KycYmd1EigxeNdT9gQb6roBuzmfN?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1y-HBp4tQa1_yZ9JcV4cjJk6pRq1gNKlH?usp=sharing) | [Google Drive](https://drive.google.com/drive/folders/1rSzGTfcXlK2edlqzcQ9eZNa_wXz9m4EQ?usp=sharing) |
 
 After downloading the weights, place them in the `weights/` directory. For example:
 
