@@ -395,11 +395,11 @@ To further illustrate performance, Figure below presents the precision-recall cu
 
 | **Model** | **#Param. (M)** | **GFLOPs (G)** | **FPS** | **Model Size (MB)** | **#Layers** |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **CFGPNet-m** | 21.0 | 94.6 | 1463.4 | 41.6 | 1165 |
-| **CFGPNet-c** | 71.7 | 362.2 | 386.1 | 138.8 | 1165 |
-| **CFGPNet-e** | 180.9 | 560.7 | 136.9 | 349.6 | 1806 |
+| **CFGPNet-m** | 15.3 (21.0) | 56.9 (94.6) | 91.7 (52.2) | 30.3 (41.6) | 816 (1165) |
+| **CFGPNet-c** | 44.9 (71.7) | 199.7 (362.2) | 52.6 (32.0) | 87.1 (138.8) | 816 (1165) |
+| **CFGPNet-e** | 128.0 (180.9) | 406.1 (560.7) | 25.7 (18.6) | 248.2 (349.6) | 1388 (1806) |
 
-> **Notes:** #Param. and GFLOPs are reported for a single forward pass at `1×6×640×640`. FPS is measured by timing the forward pass only, excluding data loading and preprocessing.
+> **Notes:** #Param. and GFLOPs are reported for a single forward pass at `1×6×640×640`. FPS is measured by timing the forward pass only, excluding data loading and preprocessing. Network specifications before reparameterization are given in parantheses. 
 
 ---
 
